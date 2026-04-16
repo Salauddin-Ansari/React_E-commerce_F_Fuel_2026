@@ -24,7 +24,14 @@ const CartItem = ({ item }) => {
         </div>
       </div>
 
-      <div className="flex items-center justify-between sm:justify-end w-full sm:w-2/5 sm:mt-0 space-x-4">
+      {/* <div className="flex items-center justify-between sm:justify-end w-full sm:w-2/5 sm:mt-0 space-x-4"> */}
+      <div
+        className="flex items-center justify-between 
+                w-fit sm:w-2/5 
+                sm:justify-end 
+                mt-2 sm:mt-0 
+                space-x-2 sm:space-x-4"
+      >
         <div className="flex items-center border border-gray-700 rounded-full overflow-hidden shadow-lg">
           <button
             onClick={decreaseQ}
